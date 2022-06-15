@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: black;
+}    
+    
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+    
+.cabecalho img{
+    width: 229px;
+    height: 68px;
+    margin: 105px auto;
+}
+
+.container{
+    width:1200px;
+}
+    
+.box_container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    margin: 26px;
+    border-radius: 8px;
+    background-color: #1E1E20;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.box img{
+    border-radius: 8px;
+}
+
+.box .vetor{
+    opacity: 0.5;
+}
+
+.box:hover .vetor{
+    opacity: 100%;
+}
+
+.box:hover{
+    border: 2px solid white;
+    color: white;
+} 
+
+
+.box a {
+    text-decoration: none;
+    color: #9C9C9C;  
+    border-bottom: 2px solid transparent; 
+}
+
+.box:hover a{
+    border: 2px solid transparent;
+    color: white;
+}
+
+.botão{
+    display: flex;
+    justify-content:center;
+    margin: 150px auto;
+}
+
+.bottom-btn{
+    display: flex;
+    width: 206px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 528px 546px 88p 528px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.bottom-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
